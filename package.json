@@ -1,0 +1,10 @@
+{
+  "dependencies": {
+    "web-vitals": "^3.1.0"
+  },
+  "devDependencies": {
+    "react-redux": "^8.0.5",
+    "react-router-dom": "^6.4.5",
+    "redux-thunk": "^2.4.2"
+  }
+}
