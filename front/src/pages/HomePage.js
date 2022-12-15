@@ -1,5 +1,5 @@
 import MainLayout from "../layouts/MainLayout";
-import ListCard from "../components/home/ListCard";
+
 
 function HomePage() {
   const listCard = [ ]
