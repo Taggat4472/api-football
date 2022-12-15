@@ -1,6 +1,12 @@
 import './App.css';
 import {HashRouter, Route, Routes} from "react-router-dom"
 
+import HomePage from "./pages/HomePage"
+import ContactPage from "./pages/ContactPage"
+import TopScorerPage from "./pages/Topscorer"
+import AdminPage from "./pages/AdminPage"
+import NotFoundPage from "./pages/NotFoundPage"
+
 function App() {
   return (
 <HashRouter>

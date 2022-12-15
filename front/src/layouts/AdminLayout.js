@@ -7,10 +7,10 @@ const AdminLayout = ({ children }) => {
     const navlink = ["Admin"];
     
     return (
-      <div className="App">
-        <Navigation title={ title } link={ navlink } />
+      <div className="AdminLayout">
+        <NavbarAdmin title={ title } link={ navlink } />
           <main> { children } </main>
-        <Footer title={ title } />
+        <FooterAdmin title={ title } />
       </div>
     );
   };

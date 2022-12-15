@@ -10,7 +10,7 @@ import {  getTopscorerLocal } from "../store/actions/TopAction";
 // store.dispatch(getTopscorerLocal());
 store.dispatch(getTopscorerLocal());
 
-function HomePage() {
+function Topscorer() {
   const listtop = useSelector(state => state.top.data)
 
   return (
@@ -20,4 +20,4 @@ function HomePage() {
   );
 }
 
-export default HomePage;
+export default Topscorer;
