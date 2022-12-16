@@ -1,12 +1,15 @@
 import MainLayout from "../layouts/MainLayout";
+import Header from '../components/Header'
+
 
 
 function HomePage() {
-  const listCard = [ ]
+  //const listCard = [ ]
    
   return (
     <MainLayout>
-      <ListCard list={ listCard } />
+      <Header />
+
     </MainLayout>
   );
 }

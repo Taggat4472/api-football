@@ -1,7 +1,8 @@
 .Header {
-    background-image:url(img/foot.jpg) ;
-    background-size: cover;
-    height: 100vh;
-    width: 100vw;
+    background-color: blue ;
+    min-height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 
 } 
