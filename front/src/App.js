@@ -3,8 +3,8 @@ import {HashRouter, Route, Routes} from "react-router-dom"
 
 import HomePage from "./pages/HomePage"
 import ContactPage from "./pages/ContactPage"
-import TopAssistPage from "./pages/Topassit"
-import TopScorerPage from "./pages/Topscorer"
+import TopAssistPage from "./pages/AssistPage"
+import TopScorerPage from "./pages/ScorerPage"
 import AdminPage from "./pages/AdminPage"
 import NotFoundPage from "./pages/NotFoundPage"
 
