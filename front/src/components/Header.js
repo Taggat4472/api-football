@@ -4,7 +4,7 @@ export default function Header() {
     return (
         <div className="Header">
 
-            <h2> Premier Leagues </h2>
+            <h2 className="Title"> Premier Leagues </h2>
 
         </div>
     );

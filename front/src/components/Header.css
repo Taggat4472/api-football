@@ -9,3 +9,11 @@
     
 } 
 
+.Title {
+    font-style: oblique;
+    font-family: fantasy;
+    font-size: 100px;
+    color: var(--secondary-color);
+    font-display: flex;
+    align-items: center;
+}
