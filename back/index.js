@@ -14,11 +14,13 @@ const express = require('express'),
     
     app.get('/topscorer', (req, res) => {
         res.json(require('./json/players-topscorers.json'))
+    })
     
     app.get('/topassists', (req, res) => {
         res.json(require('./json/players-topassists.json'))
     })
     
-    })
     
-    app.listen(3030)
+    app.listen(3030,()=> {
+        console.log("Démarage de l'app")
+    })

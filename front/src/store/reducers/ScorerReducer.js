@@ -12,11 +12,12 @@ export const scorerSlice = createSlice ({
     },
 })
 
-export const { getScorerData } = scorerSlice.action
+export const { getScorerData } = scorerSlice.actions
 
 export const fetchDataScorer = () => async (dispatch) => {
     const res = await axios.get("http://localhost:3030/topscorer")
     dispatch({type:'scorer/getScorerData',payload: res.data})
+    
 };
 
 export default scorerSlice.reducer 

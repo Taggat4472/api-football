@@ -13,7 +13,7 @@ export const assistSlice = createSlice ({
     },
 })
 
-export const { getAssistData } = assistSlice.action
+export const { getAssistData } = assistSlice.actions
 
 export const fetchDataAssist = () => async (dispatch) => {
     const res = await axios.get("http://localhost:3030/topassists")
